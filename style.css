@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.line-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+svg {
+    display: inline-block;
+    height: 100%;
+}
+
+section {
+    height: 90vh;
+    display: grid;
+    font-family: Garamond;
+    font-size: 4em;
+}
+
+.first {
+    background-image: url('leone-venter-VieM9BdZKFo-unsplash.jpg');
+    background-size: cover;
+    margin: 10px;
+    border-radius: 7px;
+}
+
+p {
+    position: absolute;
+    z-index: 1;
+    font-size: 0.5em;
+    padding: 2em;
+    letter-spacing: 3px;
+}
+
+.four p,
+.six p {
+    position: absolute;
+    z-index: 1;
+    font-size: 1em;
+    padding: 2em;
+    letter-spacing: 3px;
+}
+
+@font-face {
+    font-family: Biko;
+    src: url("");
+}
+
+body {
+    background: white;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1200px;
+}
+
+.patterns {
+    margin: none;
+}
+
+svg text {
+    font-family: Lora;
+    letter-spacing: 10px;
+    stroke: #B1B8C7;
+    font-size: 1em;
+    font-weight: 700;
+    stroke-width: 3;
+    animation: textAnimate 5s infinite alternate;
+}
+
+@keyframes textAnimate {
+    0% {
+        stroke-dasharray: 0 50%;
+        stroke-dashoffset: 20%;
+        fill: #B1B8C7;
+    }
+    100% {
+        stroke-dasharray: 50% 0;
+        stroke-dashoffstet: -20%;
+        fill: hsla(189, 68%, 75%, 0%)
+    }
+}
+
+.two {
+    font-size: 2em;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    min-width: 23em;
+}
+
+.three {
+    background-color: #F5F5F5;
+    border-radius: 7px;
+    margin: 15px;
+}
+
+.three {
+    -webkit-animation: fadein 3.5s;
+    -moz-animation: fadein 3.5s;
+    -ms-animation: fadein 3.5s;
+    -o-animation: fadein 3.5s;
+    animation: fadein 3.5s;
+}
+
+.four {
+    animation: fadein 7.5s;
+}
+
+.six {
+    animation: fadein 10.5s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.four {
+    font-size: 2em;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    padding-right: 14em;
+    background-color: #F5F5F5;
+    border-radius: 7px;
+    margin: 15px;
+    max-width: 7em;
+}
+
+.four h2,
+.six h2 {
+    margin-left: 1em;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+.three h2 {
+    margin-left: 1em;
+    font-size: 1em;
+    margin-top: 1em;
+    font-size: 0.7em;
+}
+
+.six {
+    font-size: 2em;
+    position: relative;
+    overflow: hidden;
+    float: right;
+    min-width: 23em;
+    background-color: #F5F5F5;
+    border-radius: 7px;
+    margin: 15px;
+}
+
+.six img {
+    margin-top: 7em;
+    margin-left: 3em;
+}
+
+h1 {
+    font-size: 2em;
+    text-shadow: 4px black;
+    color: #B1B8C7;
+}
+
+h2 {
+    text-shadow: 4px black;
+    color: #B1B8C7;
+    font-size: 1.3em;
+}
+
+#curly-braces {
+    color: orange;
+}
+
+#h1 {
+    color: blue;
+    font-weight: 500;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+@media screen and (max-device-width: 600px) {
+    h1 {
+        font-size: 2.5em !important;
+        margin: 1em!important;
+    }
+    h2 {
+        font: size 1em !important;
+    }
+    p {
+        font-size: 0.7em !important;
+    }
+    section {
+        height: 40vh !important;
+        display: grid;
+        font-family: Garamond;
+        font-size: 0.5em !important;
+    }
+    .first {
+        background-image: url('leone-venter-VieM9BdZKFo-unsplash.jpg')!important;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        margin: 10px;
+        border-radius: 7px;
+    }
+    h2 {
+        text-shadow: 4px black;
+        color: #B1B8C7;
+        font-size: 1.3em;
+    }
+    .three,
+    .four,
+    .six {
+        height
+    }
+    .three {
+        min-width: 17em !important;
+        margin-right: 15px !important
+    }
+    p {
+        font-size: 1.3em !important;
+    }
+    .six img {
+        margin-top: 15em !important;
+        margin-left: 4em !important;
+        width: 24px!important;
+        height: 24px !important;
+    }
+    svg text {
+        font-family: Lora;
+        letter-spacing: 5px!important;
+        stroke: #B1B8C7;
+        font-size: 2em!important;
+        font-weight: 700 !important;
+        stroke-width: 0.6!important;
+        animation: textAnimate 5s infinite alternate;
+    }
+    @keyframes textAnimate {
+        0% {
+            stroke-dasharray: 0 50%;
+            stroke-dashoffset: 20%;
+            fill: #B1B8C7;
+        }
+        100% {
+            stroke-dasharray: 50% 0;
+            stroke-dashoffstet: -20%;
+            fill: hsla(189, 68%, 75%, 0%)
+        }
+    }
+}
